@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact JAFF Studio - Get in touch for AI Automation, Web Development, and Social Media Marketing services.">
+    <title>Contact Us - JAFF Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">JAFF STUDIO</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="work.html">Work</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html" class="btn btn-primary">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh;">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p style="max-width: 700px; margin: 0 auto;">Ready to transform your business? Let's discuss how we can help you achieve your goals.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info Section -->
+    <section>
+        <div class="container">
+            <div class="page-layout">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="margin-bottom: var(--spacing-lg);">Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="ai">AI Automation</option>
+                                <option value="web">Web Development</option>
+                                <option value="marketing">Social Media Marketing</option>
+                                <option value="multiple">Multiple Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over50k">$50,000+</option>
+                                <option value="not-sure">Not Sure Yet</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Business Info Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-section">
+                        <h3>Contact Information</h3>
+                        <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+                            <div>
+                                <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">📧 Email</p>
+                                <a href="mailto:hello@jaffstudio.com">hello@jaffstudio.com</a>
+                            </div>
+                            <div>
+                                <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">📞 Phone</p>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                            <div>
+                                <p style="font-weight: 600; margin-bottom: var(--spacing-xs);">📍 Location</p>
+                                <p>Kurdistan & Global</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Business Hours</h3>
+                        <div style="display: flex; flex-direction: column; gap: var(--spacing-xs);">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Monday - Friday</span>
+                                <span style="font-weight: 600;">9AM - 6PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Saturday</span>
+                                <span style="font-weight: 600;">10AM - 4PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>Sunday</span>
+                                <span style="font-weight: 600;">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Follow Us</h3>
+                        <div class="sidebar-list">
+                            <a href="#!">LinkedIn →</a>
+                            <a href="#!">Twitter →</a>
+                            <a href="#!">Instagram →</a>
+                            <a href="#!">Facebook →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book a Call Section -->
+    <section style="background-color: var(--color-gray);">
+        <div class="container">
+            <h2 class="section-title">Book a Discovery Call</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto var(--spacing-lg);">
+                Prefer to speak directly? Schedule a 30-minute consultation to discuss your project.
+            </p>
+            <div class="calendar-placeholder">
+                <div style="font-size: 3rem; margin-bottom: var(--spacing-md);">📅</div>
+                <h3>Calendar Integration Coming Soon</h3>
+                <p style="color: var(--color-dark-gray);">For now, please email us at hello@jaffstudio.com to schedule a call.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <h3 class="faq-question">How long does a typical project take?</h3>
+                    <p class="faq-answer">Project timelines vary based on scope and complexity. A simple website typically takes 2-4 weeks, while custom AI solutions or large web applications can take 2-3 months. We'll provide a detailed timeline during our initial consultation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What is your pricing structure?</h3>
+                    <p class="faq-answer">We offer both project-based and retainer pricing depending on your needs. Every project is unique, so we provide custom quotes after understanding your requirements. We're transparent about costs and never have hidden fees.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you work with startups or only established businesses?</h3>
+                    <p class="faq-answer">We work with businesses of all sizes - from early-stage startups to established enterprises. We tailor our solutions and pricing to match your stage and budget.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What makes JAFF Studio different from other agencies?</h3>
+                    <p class="faq-answer">We combine cutting-edge AI expertise with traditional web development and marketing services. Our team stays current with the latest technologies, and we focus on delivering measurable business results, not just deliverables.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you provide ongoing support after project completion?</h3>
+                    <p class="faq-answer">Yes! We offer maintenance and support packages for all our services. Whether it's website updates, AI model improvements, or ongoing marketing campaigns, we're here to support your long-term success.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can you help if I'm not sure what I need?</h3>
+                    <p class="faq-answer">Absolutely! Many clients come to us with challenges but aren't sure of the best solution. We start with a discovery phase to understand your goals and recommend the right approach, whether that's AI automation, web development, marketing, or a combination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" style="background-color: var(--color-black); color: var(--color-white); text-align: center;">
+        <div class="container">
+            <h2>Not Ready to Reach Out Yet?</h2>
+            <p style="font-size: var(--font-size-large); max-width: 600px; margin: 0 auto 2rem;">
+                Explore our blog for insights on AI, web development, and digital marketing.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="blog.html" class="btn btn-secondary">Read Our Blog</a>
+                <a href="work.html" class="btn" style="color: white; border: 2px solid white;">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>JAFF STUDIO</h4>
+                    <p>AI Automation, Web Development & Social Media Marketing solutions for modern businesses.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="work.html">Work</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html#ai">AI Automation</a>
+                        <a href="services.html#web">Web Development</a>
+                        <a href="services.html#marketing">Social Media Marketing</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-links">
+                        <a href="mailto:hello@jaffstudio.com">hello@jaffstudio.com</a>
+                        <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        <a href="#!">LinkedIn</a>
+                        <a href="#!">Twitter</a>
+                        <a href="#!">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JAFF Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
